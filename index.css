@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.team-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0 0 0.5px black;
+    margin: 50px 0 20px 0;
+}
+
+.team-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;      
+    color: #F94F6D;     
+    background: #080001; 
+    padding-top: 10px;      
+    width: 150px;
+    text-align: center;   
+    border-radius: 6px;                 
+}
+
+.team-score p {
+    margin: 0;
+    font-size: 80px;
+    padding: 12px 0;
+}
+
+.btn-container {
+    padding-top: 20px;      
+    text-align: center; 
+    display: flex;
+    
+}
+
+.btn-container button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-shadow: 0 0 0.5px black;
+    font-size: 18px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: none;
+    margin: 0 2px;
+    padding: 10px 9px;
+}
+
+.btn-container-each {
+    border: 1px solid #9AABD8;
+    border-radius: 6px;
+    padding-top: 3px;
+    margin: 0 5px;
+}
+
+
+
+.reset-btn {
+    border: 1px solid #9AABD8;
+    max-width: 400px;
+    padding-top: 4px;
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#rst-btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-shadow: 0 0 0.5px black;
+    font-size: 18px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: none;
+    width: 100%;
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
